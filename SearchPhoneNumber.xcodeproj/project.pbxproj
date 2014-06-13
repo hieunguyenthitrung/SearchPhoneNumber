@@ -1,0 +1,453 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E00FD9BC194AE62800DC1015 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E00FD9BB194AE62800DC1015 /* Foundation.framework */; };
+		E00FD9BE194AE62800DC1015 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E00FD9BD194AE62800DC1015 /* CoreGraphics.framework */; };
+		E00FD9C0194AE62800DC1015 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E00FD9BF194AE62800DC1015 /* UIKit.framework */; };
+		E00FD9C6194AE62800DC1015 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E00FD9C4194AE62800DC1015 /* InfoPlist.strings */; };
+		E00FD9C8194AE62800DC1015 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E00FD9C7194AE62800DC1015 /* main.m */; };
+		E00FD9CC194AE62800DC1015 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E00FD9CB194AE62800DC1015 /* AppDelegate.m */; };
+		E00FD9CE194AE62800DC1015 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E00FD9CD194AE62800DC1015 /* Images.xcassets */; };
+		E00FD9D5194AE62800DC1015 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E00FD9D4194AE62800DC1015 /* XCTest.framework */; };
+		E00FD9D6194AE62800DC1015 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E00FD9BB194AE62800DC1015 /* Foundation.framework */; };
+		E00FD9D7194AE62800DC1015 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E00FD9BF194AE62800DC1015 /* UIKit.framework */; };
+		E00FD9DF194AE62800DC1015 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E00FD9DD194AE62800DC1015 /* InfoPlist.strings */; };
+		E00FD9E1194AE62800DC1015 /* SearchPhoneNumberTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E00FD9E0194AE62800DC1015 /* SearchPhoneNumberTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E00FD9D8194AE62800DC1015 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E00FD9B0194AE62800DC1015 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E00FD9B7194AE62800DC1015;
+			remoteInfo = SearchPhoneNumber;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E00FD9B8194AE62800DC1015 /* SearchPhoneNumber.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SearchPhoneNumber.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E00FD9BB194AE62800DC1015 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E00FD9BD194AE62800DC1015 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E00FD9BF194AE62800DC1015 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E00FD9C3194AE62800DC1015 /* SearchPhoneNumber-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SearchPhoneNumber-Info.plist"; sourceTree = "<group>"; };
+		E00FD9C5194AE62800DC1015 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E00FD9C7194AE62800DC1015 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E00FD9C9194AE62800DC1015 /* SearchPhoneNumber-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SearchPhoneNumber-Prefix.pch"; sourceTree = "<group>"; };
+		E00FD9CA194AE62800DC1015 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E00FD9CB194AE62800DC1015 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E00FD9CD194AE62800DC1015 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E00FD9D3194AE62800DC1015 /* SearchPhoneNumberTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SearchPhoneNumberTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E00FD9D4194AE62800DC1015 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E00FD9DC194AE62800DC1015 /* SearchPhoneNumberTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SearchPhoneNumberTests-Info.plist"; sourceTree = "<group>"; };
+		E00FD9DE194AE62800DC1015 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E00FD9E0194AE62800DC1015 /* SearchPhoneNumberTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SearchPhoneNumberTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E00FD9B5194AE62800DC1015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E00FD9BE194AE62800DC1015 /* CoreGraphics.framework in Frameworks */,
+				E00FD9C0194AE62800DC1015 /* UIKit.framework in Frameworks */,
+				E00FD9BC194AE62800DC1015 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E00FD9D0194AE62800DC1015 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E00FD9D5194AE62800DC1015 /* XCTest.framework in Frameworks */,
+				E00FD9D7194AE62800DC1015 /* UIKit.framework in Frameworks */,
+				E00FD9D6194AE62800DC1015 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E00FD9AF194AE62800DC1015 = {
+			isa = PBXGroup;
+			children = (
+				E00FD9C1194AE62800DC1015 /* SearchPhoneNumber */,
+				E00FD9DA194AE62800DC1015 /* SearchPhoneNumberTests */,
+				E00FD9BA194AE62800DC1015 /* Frameworks */,
+				E00FD9B9194AE62800DC1015 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E00FD9B9194AE62800DC1015 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E00FD9B8194AE62800DC1015 /* SearchPhoneNumber.app */,
+				E00FD9D3194AE62800DC1015 /* SearchPhoneNumberTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E00FD9BA194AE62800DC1015 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E00FD9BB194AE62800DC1015 /* Foundation.framework */,
+				E00FD9BD194AE62800DC1015 /* CoreGraphics.framework */,
+				E00FD9BF194AE62800DC1015 /* UIKit.framework */,
+				E00FD9D4194AE62800DC1015 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E00FD9C1194AE62800DC1015 /* SearchPhoneNumber */ = {
+			isa = PBXGroup;
+			children = (
+				E00FD9CA194AE62800DC1015 /* AppDelegate.h */,
+				E00FD9CB194AE62800DC1015 /* AppDelegate.m */,
+				E00FD9CD194AE62800DC1015 /* Images.xcassets */,
+				E00FD9C2194AE62800DC1015 /* Supporting Files */,
+			);
+			path = SearchPhoneNumber;
+			sourceTree = "<group>";
+		};
+		E00FD9C2194AE62800DC1015 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E00FD9C3194AE62800DC1015 /* SearchPhoneNumber-Info.plist */,
+				E00FD9C4194AE62800DC1015 /* InfoPlist.strings */,
+				E00FD9C7194AE62800DC1015 /* main.m */,
+				E00FD9C9194AE62800DC1015 /* SearchPhoneNumber-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E00FD9DA194AE62800DC1015 /* SearchPhoneNumberTests */ = {
+			isa = PBXGroup;
+			children = (
+				E00FD9E0194AE62800DC1015 /* SearchPhoneNumberTests.m */,
+				E00FD9DB194AE62800DC1015 /* Supporting Files */,
+			);
+			path = SearchPhoneNumberTests;
+			sourceTree = "<group>";
+		};
+		E00FD9DB194AE62800DC1015 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E00FD9DC194AE62800DC1015 /* SearchPhoneNumberTests-Info.plist */,
+				E00FD9DD194AE62800DC1015 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E00FD9B7194AE62800DC1015 /* SearchPhoneNumber */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E00FD9E4194AE62800DC1015 /* Build configuration list for PBXNativeTarget "SearchPhoneNumber" */;
+			buildPhases = (
+				E00FD9B4194AE62800DC1015 /* Sources */,
+				E00FD9B5194AE62800DC1015 /* Frameworks */,
+				E00FD9B6194AE62800DC1015 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SearchPhoneNumber;
+			productName = SearchPhoneNumber;
+			productReference = E00FD9B8194AE62800DC1015 /* SearchPhoneNumber.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E00FD9D2194AE62800DC1015 /* SearchPhoneNumberTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E00FD9E7194AE62800DC1015 /* Build configuration list for PBXNativeTarget "SearchPhoneNumberTests" */;
+			buildPhases = (
+				E00FD9CF194AE62800DC1015 /* Sources */,
+				E00FD9D0194AE62800DC1015 /* Frameworks */,
+				E00FD9D1194AE62800DC1015 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E00FD9D9194AE62800DC1015 /* PBXTargetDependency */,
+			);
+			name = SearchPhoneNumberTests;
+			productName = SearchPhoneNumberTests;
+			productReference = E00FD9D3194AE62800DC1015 /* SearchPhoneNumberTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E00FD9B0194AE62800DC1015 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				TargetAttributes = {
+					E00FD9D2194AE62800DC1015 = {
+						TestTargetID = E00FD9B7194AE62800DC1015;
+					};
+				};
+			};
+			buildConfigurationList = E00FD9B3194AE62800DC1015 /* Build configuration list for PBXProject "SearchPhoneNumber" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = E00FD9AF194AE62800DC1015;
+			productRefGroup = E00FD9B9194AE62800DC1015 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E00FD9B7194AE62800DC1015 /* SearchPhoneNumber */,
+				E00FD9D2194AE62800DC1015 /* SearchPhoneNumberTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E00FD9B6194AE62800DC1015 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E00FD9C6194AE62800DC1015 /* InfoPlist.strings in Resources */,
+				E00FD9CE194AE62800DC1015 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E00FD9D1194AE62800DC1015 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E00FD9DF194AE62800DC1015 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E00FD9B4194AE62800DC1015 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E00FD9CC194AE62800DC1015 /* AppDelegate.m in Sources */,
+				E00FD9C8194AE62800DC1015 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E00FD9CF194AE62800DC1015 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E00FD9E1194AE62800DC1015 /* SearchPhoneNumberTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E00FD9D9194AE62800DC1015 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E00FD9B7194AE62800DC1015 /* SearchPhoneNumber */;
+			targetProxy = E00FD9D8194AE62800DC1015 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E00FD9C4194AE62800DC1015 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E00FD9C5194AE62800DC1015 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E00FD9DD194AE62800DC1015 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E00FD9DE194AE62800DC1015 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E00FD9E2194AE62800DC1015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E00FD9E3194AE62800DC1015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E00FD9E5194AE62800DC1015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SearchPhoneNumber/SearchPhoneNumber-Prefix.pch";
+				INFOPLIST_FILE = "SearchPhoneNumber/SearchPhoneNumber-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E00FD9E6194AE62800DC1015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SearchPhoneNumber/SearchPhoneNumber-Prefix.pch";
+				INFOPLIST_FILE = "SearchPhoneNumber/SearchPhoneNumber-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E00FD9E8194AE62800DC1015 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SearchPhoneNumber.app/SearchPhoneNumber";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SearchPhoneNumber/SearchPhoneNumber-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "SearchPhoneNumberTests/SearchPhoneNumberTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E00FD9E9194AE62800DC1015 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SearchPhoneNumber.app/SearchPhoneNumber";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SearchPhoneNumber/SearchPhoneNumber-Prefix.pch";
+				INFOPLIST_FILE = "SearchPhoneNumberTests/SearchPhoneNumberTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E00FD9B3194AE62800DC1015 /* Build configuration list for PBXProject "SearchPhoneNumber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E00FD9E2194AE62800DC1015 /* Debug */,
+				E00FD9E3194AE62800DC1015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E00FD9E4194AE62800DC1015 /* Build configuration list for PBXNativeTarget "SearchPhoneNumber" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E00FD9E5194AE62800DC1015 /* Debug */,
+				E00FD9E6194AE62800DC1015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E00FD9E7194AE62800DC1015 /* Build configuration list for PBXNativeTarget "SearchPhoneNumberTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E00FD9E8194AE62800DC1015 /* Debug */,
+				E00FD9E9194AE62800DC1015 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E00FD9B0194AE62800DC1015 /* Project object */;
+}
